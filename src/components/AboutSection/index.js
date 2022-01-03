@@ -1,8 +1,8 @@
 import React from 'react';
 import { Button } from '../ButtonElements';
-import { BtnWrap, Column1, Column2, Heading, Img, ImgWrap, InfoContainer, InfoRow, InfoWrapper, Subtitle, TextWrapper, TopLine } from '../AboutSection/AboutElements';
+import { BtnWrap, Column1, Column2, Heading, InfoContainer, InfoRow, InfoWrapper, Subtitle, TextWrapper, TopLine } from '../AboutSection/AboutElements';
 
-const AboutSection = ({lightBg,id,imgStart,topLine,topLine2,lightText,headline,headline2,darkText,description,description2,buttonLabel,buttonLabel1,img,alt, primary, dark,dark2}) => {
+const AboutSection = ({lightBg,id,imgStart,topLine,topLine2,lightText,headline,headline2,darkText,description,description2,buttonLabel,buttonLabel1,primary, dark,dark2}) => {
     return (
         <>
          <InfoContainer lightBg={lightBg} id={id}>
