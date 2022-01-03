@@ -34,7 +34,7 @@ const Services = () => {
                 <ServicesCard>
                     <ServicesIcon src={Icon3}></ServicesIcon>
                     <ServicesH2>Tile Roofing</ServicesH2>
-                    <ServicesP>Inspecton, Remove material prior to the installation of tile on the floor, installation and repair of tile floors.</ServicesP> 
+                    <ServicesP>Inspection, Remove material prior to the installation of tile on the floor, installation and repair of tile floors.</ServicesP> 
                     <Link to="../../../tileFloor">Read More</Link>
                 </ServicesCard>
             </ServicesWrapper>

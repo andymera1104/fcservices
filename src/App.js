@@ -10,16 +10,11 @@ import TileFloor from './pages/tileFloor';
 
 import Footer from './components/Footer';
 
-
+import MessengerCustomerChat from 'react-messenger-customer-chat';
 
 function App() {
 
-  /* const [isOpen, setIsOpen] = useState(false)
 
-    const toggle = () => {
-        setIsOpen(!isOpen)
-    }
- */
   return (
     <Router>
       
@@ -30,8 +25,17 @@ function App() {
         <Route path="/tile" component={Tile} exact />
         <Route path="/tileFloor" component={TileFloor} exact />
       </Switch>  
+
+      <MessengerCustomerChat
+          pageId="109854618241458"
+          appId="2255011484672811"
+        />
+
       <Footer/>
+
+        
     </Router>
+    
   );
 }
 

@@ -23,6 +23,7 @@ const Home = () => {
 
 
 
+
     return (
         <>
          <Sidebar isOpen= {isOpen} toggle={toggle}></Sidebar>
@@ -36,6 +37,11 @@ const Home = () => {
          <Experiences></Experiences>
          <Mailer></Mailer>
          
+        
+
+
+
+
         </>
     )
 }
